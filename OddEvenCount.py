@@ -1,7 +1,8 @@
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+start_number=int(input())
+end_number=int(input())
 odd=0
 even=0
-for i in numbers:
+for i in range(start_number,end_number+1):
     if i%2==0:
         even+=1
     else:
